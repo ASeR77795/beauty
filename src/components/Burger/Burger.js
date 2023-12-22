@@ -1,0 +1,36 @@
+import './Burger';
+import React from 'react';
+
+const Burger = () => {
+	return (
+		<button>
+			<svg
+				width='18'
+				height='15'
+				viewBox='0 0 18 15'
+				fill='none'
+				xmlns='http://www.w3.org/2000/svg'
+			>
+				<g id='Link &#226;&#134;&#146; SVG' clip-path='url(#clip0_1_275)'>
+					<path
+						id='Vector'
+						d='M0 14.28H18V12.28H0V14.28ZM0 8.27999H18V6.27999H0V8.27999ZM0 2.27999H18V0.278992H0V2.27999Z'
+						fill='black'
+					/>
+				</g>
+				<defs>
+					<clipPath id='clip0_1_275'>
+						<rect
+							width='18'
+							height='14'
+							fill='black'
+							transform='translate(0 0.279999)'
+						/>
+					</clipPath>
+				</defs>
+			</svg>
+		</button>
+	);
+};
+
+export default Burger;

@@ -1,0 +1,36 @@
+.header {
+	background-color: black;
+	.box {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 25px;
+		.logo {
+			display: flex;
+			align-items: center;
+			.item {
+			}
+		}
+		.nav {
+			display: flex;
+			align-items: center;
+		}
+		.button {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			.btn {
+				width: 100%;
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.header {
+		background-color: aliceblue;
+		.box {
+			display: flex;
+			justify-content: space-between;
+			padding: 10px;
+		}
+	}
+}

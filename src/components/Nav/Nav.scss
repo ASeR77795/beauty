@@ -1,0 +1,18 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 10px;
+	a {
+		color: #fff;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		font-family: Montserrat;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: 4.2px;
+		text-transform: uppercase;
+		white-space: nowrap;
+		margin: 0 10px;
+	}
+}

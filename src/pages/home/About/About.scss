@@ -1,0 +1,59 @@
+.about {
+	.wrapper {
+		background-image: url('../../../img/backgrount-1.webp');
+		z-index: -1;
+		.box {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 0 auto;
+			.title {
+				color: #c59d5f;
+				text-align: center;
+				font-family: Inter;
+				font-size: 204.675px;
+				font-style: normal;
+				font-weight: 100;
+				line-height: 225px;
+			}
+			.text {
+				color: #fff;
+				text-align: center;
+				font-family: Cormorant Garamond;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 34px;
+				letter-spacing: 1px;
+			}
+			.button {
+				margin-bottom: 150px;
+				.btn {
+					color: #fff;
+
+					text-align: center;
+					font-family: Montserrat;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: 14px;
+					letter-spacing: 3.5px;
+					text-transform: uppercase;
+					border: 1px solid #fff;
+					padding: 17px 70px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.about {
+		.wrapper {
+			.box {
+				.title {
+					font-size: 100px;
+				}
+			}
+		}
+	}
+}
